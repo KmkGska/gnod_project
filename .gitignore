@@ -1,0 +1,11 @@
+# Credentials & Secrets (CRITICAL)
+.env
+
+# Python environment & cache
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.DS_Store
+
+# Models (Keep massive binary files out of Git if necessary, though small pkl files are okay)
+# models/*.pkl
